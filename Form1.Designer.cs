@@ -425,7 +425,7 @@
             this.isMinor.Name = "isMinor";
             this.isMinor.Size = new System.Drawing.Size(124, 19);
             this.isMinor.TabIndex = 1;
-            this.isMinor.Text = "마이너 갤러리";
+            this.isMinor.Text = "미니 갤러리";
             this.isMinor.UseVisualStyleBackColor = true;
             // 
             // pageProgressBar

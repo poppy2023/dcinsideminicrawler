@@ -307,7 +307,7 @@ gcrk.Crawler();
             this.initPage = initPage; this.endPage = 1000000000;
             this.initDate = initDate; this.endDate = endDate;
             this.gallId = gallId; this.isMinor = isMinor;
-            if (this.isMinor) { gallUrl = "https://gall.dcinside.com/mgallery/board/lists?id=" + gallId; }
+            if (this.isMinor) { gallUrl = "https://gall.dcinside.com/mini/board/lists?id=" + gallId; }
             else { gallUrl = "https://gall.dcinside.com/board/lists/?id=" + gallId; }
         }
         public GallchangrankingCrawler() { }
